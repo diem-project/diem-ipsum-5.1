@@ -36,7 +36,13 @@ div.dm_layout {
   background: url(../images/box.jpg) no-repeat;
 }
 
+/* Diem 5.0 */
 #dm_content .dm_content {
+  padding: 0 25px 0 20px;
+}
+
+/* Diem 5.1 */
+#dm_content .dm_page_content {
   padding: 0 25px 0 20px;
 }
 
