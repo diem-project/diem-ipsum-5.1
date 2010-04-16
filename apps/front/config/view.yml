@@ -9,6 +9,7 @@ default:
     - navigation
     - markdown
     - form
+    - article
 
   javascripts:     # we don't need any JS right now
 

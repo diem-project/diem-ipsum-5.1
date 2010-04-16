@@ -1,0 +1,48 @@
+/* list */
+.article_list .element {
+  padding-top: 1em;
+}
+
+.article_list .t_medium .link {
+  color:#2666C3;
+  text-decoration:none;
+}
+
+/* show */
+.article_show .image {
+  float: left;
+  margin: 0 1em 0.5em 0;
+  background: #fff;
+  border: 1px solid #E5E5E5;
+  padding: 7px;
+}
+
+/* infos */
+.article_infos {
+  background: #F4F8FD;
+  padding: 5px;
+  border: 1px solid #E5F0FB;
+  font-size: 95%;
+}
+.article_infos a,
+.article_infos span{
+  padding-left: 0px;
+  margin: 0 5px;
+}
+
+/* comments */
+
+.article_comment_list_by_article .element {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #E5F0FB;
+  margin-bottom: 0.5em;
+}
+
+.article_comment_list_by_article .author {
+  font-weight: bold;
+}
+
+.article_comment_list_by_article .date {
+  font-style: italic;
+  margin-left: 1em;
+}
