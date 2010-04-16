@@ -10,6 +10,7 @@ default:
     - markdown
     - form
     - article
+    - search
 
   javascripts:     # we don't need any JS right now
 

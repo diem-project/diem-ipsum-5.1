@@ -1,0 +1,40 @@
+/* search form */
+.search_form form {
+  margin: 10px 0;
+}
+.search_form label { display: none; }
+.search_form input.query {
+  width: 63%;
+  margin-right: 3%;
+  height: 20px;
+  padding: 2px;
+  border: 1px solid #D2E8F7;
+  vertical-align: top;
+}
+.search_form input.submit {
+  width: 30%;
+  height: 26px;
+  padding: 2px 5px;
+  vertical-align: top;
+}
+
+/* search results */
+.search_results h1 {
+  font-size: 180%;
+  font-weight: normal;
+  color: #555;
+}
+
+.search_result {
+  margin: 1em 0;
+}
+
+.search_result .page_name {
+  margin-left: 1em;
+  font-weight: bold;
+}
+
+.search_result .page_description {
+  margin-left: 1em;
+  color: #777777;
+}
