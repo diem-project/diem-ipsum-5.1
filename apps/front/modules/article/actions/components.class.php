@@ -5,6 +5,7 @@
  * No redirection nor database manipulation ( insert, update, delete ) here
  * 
  * 
+ * 
  */
 class articleComponents extends myFrontModuleComponents
 {
@@ -14,7 +15,6 @@ class articleComponents extends myFrontModuleComponents
     $query = $this->getListQuery();
     
     $this->articlePager = $this->getPager($query);
-
     $this->articlePager->setOption('ajax', true);
   }
 
@@ -23,6 +23,13 @@ class articleComponents extends myFrontModuleComponents
     $query = $this->getShowQuery();
     
     $this->article = $this->getRecord($query);
+  }
+
+  public function executeListSide()
+  {
+    $query = $this->getListQuery();
+    
+    $this->articlePager = $this->getPager($query);
   }
 
 
