@@ -13,4 +13,5 @@ Content:
       page:         true
       components:
         list:
+        listSide:
         show:
