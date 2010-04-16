@@ -11,3 +11,5 @@ Content:
 
     article:
       page:         true
+      components:
+        list:
