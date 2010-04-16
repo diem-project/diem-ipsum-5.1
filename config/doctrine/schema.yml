@@ -1,0 +1,24 @@
+Article:
+  actAs:
+    DmSortable:
+    I18n:
+      fields:         [ title, extract, body, is_active ]
+      actAs:
+        Timestampable:
+        DmVersionable:
+  columns:
+    title:            { type: string(120), notnull: true }
+    extract:          { type: string(2000), notnull: true }
+    body:             { type: clob, extra: markdown }
+    image:            { type: integer }
+    author:           { type: integer, notnull: true }
+    is_active:        { type: boolean, notnull: true, default: false }
+  relations:
+    Image:
+      class:          DmMedia
+      local:          image
+      foreignAlias:   Articles
+    Author:
+      class: DmUser
+      local: author
+      foreignAlias:   Articles
