@@ -17,8 +17,6 @@
 
     <div class="dm_layout_center clearfix">
 
-      <?php echo $helper->renderArea('layout.left') ?>
-
       <?php echo $helper->renderArea('page.content') ?>
 
       <?php echo $helper->renderArea('layout.right') ?>
