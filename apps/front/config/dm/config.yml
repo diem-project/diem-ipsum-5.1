@@ -1,13 +1,14 @@
 all:
 
-  theming:                                        # front css themes
-    themes:                                       # list of themes
-      "Default":
-        dir:              theme                   # relative to web dir
-        enabled:          true                    # theme disponibility
+  theming:                          # the theming component
+    themes:                         # list of themes
+      coolwater:                    # theme key
+        name:      Cool Water       # theme name; defaults to the theme key
+        dir:       themeCoolWater   # the directory in the web dir that holds the theme files
+        enabled:   true             # whether the theme is enabled for use with the dmThemeManager
 
   html:
     doctype:
       name:               html                    # Doctype name ( 'html', 'xhtml' )
       version:            5                       # Doctype xhtml version ( '1.0', '1.1' ) or html version ( '4', '5' )
-      compliance:         transitional            # Doctype xhtml compliance ( 'strict', 'transitional' )
+      compliance:         transitional            # Doctype xhtml compliance ( 'strict', 'transitional' )  

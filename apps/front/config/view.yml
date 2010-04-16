@@ -1,15 +1,13 @@
 default:
-  
+
   http_metas:
     content-type: text/html
 
   stylesheets:
     - layout
-    - main
-    - markdown
+    - typography
 
-  javascripts:
-    - front
+  javascripts:     # we don't need any JS right now
 
-  has_layout:     true
-  layout:         layout
+  has_layout:      true
+  layout:          layout 
