@@ -1,0 +1,63 @@
+.markdown h2,
+.text_title {
+  font-size: 170%;
+  color: #88ac0b;
+  font-weight: normal;
+}
+
+.markdown h3 {
+  color:#666666;
+  font-size:155%;
+}
+
+.markdown h4 {
+  color:#666666;
+  font-size:125%;
+}
+
+.markdown li {
+  list-style-image: url(../images/bullet.gif);
+  list-style-position: inside;
+}
+
+.markdown ul, .markdown ol {
+  margin: 5px 15px;
+  padding: 0 25px;
+}
+
+.text_image {
+  float: left;
+  margin: 0 1em 0.5em 0;
+  background: #fff;
+  border: 1px solid #E5E5E5;
+  padding: 7px;
+}
+
+/* roundbox text styles */
+.roundbox .dm_text {
+  background: #fff;
+  border: 10px solid #A2E256;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  padding: 15px;
+}
+.roundbox .text_title {
+  font-size: 190%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #88AC0B;
+  margin: 0 0 15px 0;
+}
+.roundbox .text_image {
+  float: right;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.roundbox .text_image img {
+  border: 1px solid #88AC0B;
+}
+.roundbox .markdown h3 {
+  color: #88AC0B;
+  border-bottom: 1px solid #88AC0B;
+}
