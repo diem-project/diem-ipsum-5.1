@@ -1,0 +1,73 @@
+p {
+  margin: 10px 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/* links */
+.link, .link:visited {
+  text-decoration: none;
+  color: #FB9233;
+}
+a.link:hover {
+  text-decoration: underline;
+  color: #93C600;
+}
+
+/* titles */
+h1, h2, h3 {
+  font-family: 'Trebuchet MS', Tahoma, Sans-serif;
+  margin: 10px 0;
+}
+
+/* site name */
+.t_site {
+  margin: 0;
+  padding: 20px 0 0 35px;
+}
+.t_site .link {
+font: bolder 58px 'Trebuchet MS', Arial, Sans-serif;
+letter-spacing: -3px;
+color: #fff;
+text-transform: none;
+text-decoration: none;
+background: transparent;
+}
+.t_site .link:hover {
+  text-decoration: none;
+  color: #ddddff;
+}
+.t_baseline {
+  font: bold 13px 'Trebuchet MS', Arial, Sans-serif;
+  text-transform: none;
+  color: #FFF;
+
+  margin: 0;
+  padding: 0 0 0 50px;
+}
+
+/* page titles */
+.t_big {
+  font-size: 180%;
+  font-weight: normal;
+  color: #555;
+}
+
+.t_medium {
+  font-size: 160%;
+  color: #88ac0b;
+  font-weight: normal;
+}
+
+.t_side {
+  font-size: 160%;
+  margin: 15px 5px 10px 5px;
+  font: bold 1.4em 'Trebuchet MS', Tahoma, Sans-serif;
+  color: #555;
+}
