@@ -1,0 +1,3 @@
+blog_feed:
+  url:        /blog/feed
+  params:     { module: article, action: feed } 
