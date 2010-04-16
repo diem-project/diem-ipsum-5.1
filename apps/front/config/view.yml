@@ -6,6 +6,7 @@ default:
   stylesheets:
     - layout
     - typography
+    - navigation
 
   javascripts:     # we don't need any JS right now
 

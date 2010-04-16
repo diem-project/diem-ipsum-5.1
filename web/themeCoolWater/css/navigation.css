@@ -1,0 +1,38 @@
+div.main_menu ul {
+  font: bold 16px/40px "trebuchet MS", Arial, Tahoma, Sans-serif;
+  list-style: none;
+  margin:0;
+  padding: 0 0 0 20px;
+  height: 40px;
+  background: #81C524 url(../images/menu.jpg) no-repeat;
+}
+div.main_menu ul li {
+  display: inline;
+}
+div.main_menu ul li .link {
+  display: block;
+  float: left;
+  padding: 0 12px;
+  color: #fff;
+  text-decoration: none;
+  background: url(../images/sep.jpg) no-repeat 100% 100%;
+}
+div.main_menu ul li a:hover {
+  color: #3b5e0b;
+}
+div.main_menu ul li.dm_current .link {
+  color: #3b5e0b;
+}
+
+.navigation_bread_crumb li, .pager li {
+  display: inline;
+  margin: 0 0.5em;
+}
+.pager {
+  text-align: center;
+  font-weight: bold;
+}
+ .pager li.current .link {
+   font-size: 120%;
+   color: #666;
+ }
