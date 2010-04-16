@@ -14,6 +14,8 @@ class articleComponents extends myFrontModuleComponents
     $query = $this->getListQuery();
     
     $this->articlePager = $this->getPager($query);
+
+    $this->articlePager->setOption('ajax', true);
   }
 
   public function executeShow()
