@@ -1,0 +1,48 @@
+generator:
+  class: dmAdminDoctrineGenerator
+  param:
+    model_class: Article
+    theme: dmAdmin
+    non_verbose_templates: true
+    with_show: false
+    route_prefix: article
+    with_doctrine_route: false
+    config:
+      actions: ~
+      fields: {  }
+      list:
+        display:
+          - '=title'
+          - image
+          - author
+          - extract
+          - body
+          - is_active
+          - created_at
+          - updated_at
+        sort:
+          - position
+          - asc
+        table_method: getAdminListQuery
+        table_count_method: ~
+        sortable: true
+      filter:
+        display:
+          - title
+          - image
+          - author
+          - extract
+          - body
+          - is_active
+          - created_at
+          - updated_at
+      form:
+        display:
+          NONE: [title, is_active, author]
+          Image: [image_form, image_view]
+          Body: [body]
+          Others: [extract]
+        class: ArticleAdminForm
+        fields: {  }
+      edit: ~
+      new: ~
