@@ -1,0 +1,62 @@
+/* all forms */
+label {
+  display:block;
+  font-weight:bold;
+  margin: 7px 0;
+}
+input {
+  padding:3px;
+  border: 1px solid #E5F0FB;
+  font: normal 1em Verdana, sans-serif;
+  color:#777;
+}
+textarea {
+  width:400px;
+  padding:3px;
+  font: normal 1em Verdana, sans-serif;
+  border: 1px solid #E5F0FB;
+  height:100px;
+  display:block;
+  color:#777;
+}
+input.submit {
+  font: bold 12px Arial, Sans-serif;
+  height: 28px;
+  margin: 0;
+  padding: 2px 3px;
+  color: #fff;
+  background: #306bc1 url(../images/button-bg.jpg) repeat-x 0 0;
+  border: 1px solid #306bc1;
+  cursor: pointer;
+}
+
+/* content forms */
+#dm_content form {
+  padding: 10px;
+  border: 1px solid #E5F0FB;
+  background: #F4F8FD;
+}
+
+#dm_content form .submit_wrap {
+  margin-top: 15px;
+}
+
+#dm_content .error_list,
+#dm_content .error_list li {
+  display: inline;
+  color: red;
+  padding: 0;
+}
+
+#dm_content .has_error {
+  border-color: red;
+}
+
+#dm_content .form_valid {
+  margin: 10px 50px;
+  padding: 10px 0 10px 45px;
+  font: bold 1.3em/1.5em "Trebuchet MS", Tahoma, arial, Sans-serif;
+  color: #2361BA;
+  border: 1px solid #E5F0FB;
+  background: #F4F8FD url(../images/quote.jpg) no-repeat 8px 6px;
+}

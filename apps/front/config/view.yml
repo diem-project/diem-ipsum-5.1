@@ -8,6 +8,7 @@ default:
     - typography
     - navigation
     - markdown
+    - form
 
   javascripts:     # we don't need any JS right now
 
