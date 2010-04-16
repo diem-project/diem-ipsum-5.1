@@ -1,0 +1,3 @@
+[submodule "plugins/dmWidgetTwitterPlugin"]
+	path = plugins/dmWidgetTwitterPlugin
+	url = git://github.com/ornicar/dmWidgetTwitterPlugin
