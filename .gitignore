@@ -1,0 +1,16 @@
+config/databases.yml
+config/require_diem.php
+cache/*
+log/*
+logs
+data/dm/*
+web/cache/*
+web/.htaccess
+web/*Plugin
+web/sf*
+web/uploads/*
+web/stats/*
+lib/*/doctrine/base
+lib/*/doctrine/*Plugin/base
+lib/migration/doctrine/*
+nbproject
