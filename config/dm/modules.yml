@@ -10,3 +10,4 @@ Content:
   Blog:
 
     article:
+      page:         true
