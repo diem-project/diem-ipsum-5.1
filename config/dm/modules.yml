@@ -13,3 +13,4 @@ Content:
       page:         true
       components:
         list:
+        show:
